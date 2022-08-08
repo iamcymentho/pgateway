@@ -32,18 +32,39 @@ ob_start();
     <meta name="twitter.card" content="">
     <meta name="twitter.discription" content="">
 
+    <!-- external style sheet -->
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- bootstrap css -->
+    <!-- <link rel="stylesheet" href="mycss/bootstrap.min.css"> -->
+    <!-- style css -->
+     <!-- <link rel="stylesheet" href="testy/css/style.css"> -->
+    <!-- <! style css --> 
+    <link rel="stylesheet" href="testy/css/app.css"> 
+    <!-- Responsive-->
+    <link rel="stylesheet" href="testy/css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="testy/images/fevicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="testy/css/jquery.mCustomScrollbar.min.css">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+        media="screen">
+
 
     <!-- bootstrap CSS stylesheet-->
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
-    <!-- external style sheet -->
-
-    <link rel="stylesheet" type="text/css" href="style.css">
+    
 
 
     <!-- css animate -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+     
 
       <!-- font awesome -->
     
@@ -75,6 +96,43 @@ ob_start();
        
 }
 
+.donationheader{
+
+    font-family: 'Bebas Neue', cursive;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-size: 30px;
+
+}
+
+.donationdisplay{
+
+    font-family: 'Bebas Neue', cursive;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-size: 10px;
+
+}
+
+.donationtext{
+
+    font-family: 'Bebas Neue', cursive;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-size: 20px;
+
+}
+
+.companycolor{
+    color:rgb(182, 62, 162);
+}
+
+
+.mydonation:hover{
+
+    color:white;
+    background-color:rgba(182, 62, 162, 0.7);
+}
 
         </style>
 
